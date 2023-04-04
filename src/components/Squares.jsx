@@ -37,7 +37,7 @@ export const Squares = () => {
     return (
         <>
             <div
-                className="square square-1"
+                className="square square-1 hidden md:block"
                 id="square1"
                 style={{ transform: squares1to6 }}
             />
@@ -67,7 +67,7 @@ export const Squares = () => {
                 style={{ transform: squares1to6 }}
             />
             <div
-                className="square square-7"
+                className="square square-7 hidden md:block"
                 id="square7"
                 style={{ transform: squares7and8 }}
             />

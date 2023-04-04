@@ -2,7 +2,7 @@
 
 export const NavBar = () => {
     return (
-        <nav className="flex justify-center items-center p-3 text-lg font-semibold text-white">
+        <nav className="fixed flex justify-center items-center p-3 text-lg font-semibold text-white w-full bg-[#171941]/90 sm:bg-transparent z-50">
             {/* <div>                
                 <span>{ "<JFEscobar/>" }</span>
             </div> */}
