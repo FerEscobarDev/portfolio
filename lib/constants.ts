@@ -75,7 +75,7 @@ export const SKILLS_ROW_1: Skill[] = [
   { icon: ".NET", name: ".NET", color: "#512BD4" },
   { icon: "JS", name: "JavaScript", color: "#F7DF1E" },
   { icon: "TS", name: "TypeScript", color: "#3178C6" },
-  { icon: "React", name: "React", color: "#0D0D0D", isHighlighted: true },
+  { icon: "React", name: "React", color: "#58c4dc", isHighlighted: false },
   { icon: "Vue", name: "Vue.js", color: "#4FC08D" },
   { icon: "SQL", name: "SQL Server", color: "#00D4AA" },
 ];
@@ -84,7 +84,7 @@ export const SKILLS_ROW_2: Skill[] = [
   { icon: "Node", name: "Node.js", color: "#339933" },
   { icon: "Ng", name: "Angular", color: "#DD0031" },
   { icon: "Git", name: "Git", color: "#F05032" },
-  { icon: "AWS", name: "AWS", color: "#FF9900" },
+  { icon: "Laravel", name: "Laravel", color: "#FF9900" },
   { icon: "CSS", name: "CSS/SASS", color: "#1572B6" },
   { icon: "API", name: "REST APIs", color: "#00D4AA" },
   { icon: "DB", name: "MongoDB", color: "#47A248" },
