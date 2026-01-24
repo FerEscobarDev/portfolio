@@ -1,0 +1,2532 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "frame",
+      "id": "uaQyn",
+      "x": 0,
+      "y": 0,
+      "name": "Fernando Escobar - Landing Page",
+      "width": 1440,
+      "fill": "#0D0D0D",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "cM760",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#0D0D0D",
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "sCJNV",
+              "name": "logoSection",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rTPD6",
+                  "name": "logoIcon",
+                  "fill": "#1f6fd3",
+                  "content": "</>",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "Dr9o6",
+                  "name": "logoName",
+                  "fill": "#FFFFFF",
+                  "content": "fernando.escobar",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 18
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nzGe6",
+              "name": "nav",
+              "gap": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nBdYJ",
+                  "name": "navAbout",
+                  "fill": "#666666",
+                  "content": "// about",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "1McVO",
+                  "name": "navProjects",
+                  "fill": "#666666",
+                  "content": "// projects",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "PVltP",
+                  "name": "navSkills",
+                  "fill": "#666666",
+                  "content": "// skills",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ThZOk",
+                  "name": "navContact",
+                  "fill": "#666666",
+                  "content": "// contact",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "isoyF",
+              "name": "headerCta",
+              "fill": "#1f6fd3",
+              "gap": 8,
+              "padding": [
+                12,
+                24
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "7FEHm",
+                  "name": "ctaText",
+                  "fill": "#0D0D0D",
+                  "content": "getInTouch()",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pMLlx",
+          "name": "Hero Section",
+          "width": "fill_container",
+          "height": 700,
+          "fill": "#0D0D0D",
+          "gap": 60,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "2KfjB",
+              "name": "heroContent",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DNbXC",
+                  "name": "heroLabel",
+                  "fill": "#1f6fd3",
+                  "content": "// FULLSTACK_DEVELOPER",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "usE3o",
+                  "name": "heroTitle",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lWUHi",
+                      "name": "heroLine1",
+                      "fill": "#FFFFFF",
+                      "content": "Transformando ideas",
+                      "fontFamily": "Oswald",
+                      "fontSize": 72,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "uoyAu",
+                      "name": "heroLine2",
+                      "fill": "#FFFFFF",
+                      "content": "en código que",
+                      "fontFamily": "Oswald",
+                      "fontSize": 72,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "oPLjs",
+                      "name": "heroLine3",
+                      "fill": "#1f6fd3",
+                      "content": "impacta.",
+                      "fontFamily": "Oswald",
+                      "fontSize": 72,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "NpxQk",
+                  "name": "heroDesc",
+                  "fill": "#666666",
+                  "textGrowth": "fixed-width",
+                  "width": 500,
+                  "content": "+5 años construyendo soluciones digitales. Apasionado por el código limpio, las mejores prácticas y el aprendizaje constante.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "8Oo1q",
+                  "name": "heroCtas",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VMWEY",
+                      "name": "heroPrimary",
+                      "fill": "#1f6fd3",
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "9HUcK",
+                          "name": "heroPrimaryText",
+                          "fill": "#0D0D0D",
+                          "content": "viewProjects()",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ycBUt",
+                      "name": "heroSecondary",
+                      "fill": "#1A1A1A",
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#3D3D3D"
+                      },
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gfYZt",
+                          "name": "heroSecondaryText",
+                          "fill": "#FFFFFF",
+                          "content": "downloadCV()",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MwSOq",
+              "name": "Hero Visual",
+              "width": 500,
+              "height": 450,
+              "fill": "#1A1A1A",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#3D3D3D"
+              },
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Y5NKi",
+                  "name": "terminalHeader",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "nbCg8",
+                      "name": "dot1",
+                      "fill": "#FF5F56",
+                      "width": 12,
+                      "height": 12
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "YPHud",
+                      "name": "dot2",
+                      "fill": "#FFBD2E",
+                      "width": 12,
+                      "height": 12
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "QtrqC",
+                      "name": "dot3",
+                      "fill": "#27CA40",
+                      "width": 12,
+                      "height": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "QlVRl",
+                      "name": "terminalTitle",
+                      "fill": "#666666",
+                      "content": "fernando@dev:~",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mtn0l",
+                  "name": "codeBlock",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SomTt",
+                      "name": "code1",
+                      "fill": "#FFFFFF",
+                      "content": "const developer = {",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OsNtX",
+                      "name": "code2",
+                      "fill": "#00D4AA",
+                      "content": "  name: 'Fernando Escobar',",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "t5ANW",
+                      "name": "code3",
+                      "fill": "#00D4AA",
+                      "content": "  role: 'Fullstack Developer',",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ezfyd",
+                      "name": "code4",
+                      "fill": "#00D4AA",
+                      "content": "  experience: '5+ years',",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CNEJo",
+                      "name": "code5",
+                      "fill": "#00D4AA",
+                      "content": "  passion: 'Building solutions',",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Seaef",
+                      "name": "code6",
+                      "fill": "#1f6fd3",
+                      "content": "  status: 'Available'",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jBtMK",
+                      "name": "code7",
+                      "fill": "#FFFFFF",
+                      "content": "};",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "s5k4y",
+                      "name": "code8",
+                      "fill": "#FFFFFF",
+                      "content": " ",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "IUiyS",
+                      "name": "code9",
+                      "fill": "#1f6fd3",
+                      "content": "developer.createAwesomeThings();",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pZyr1",
+                      "name": "cursor",
+                      "width": 10,
+                      "height": 20,
+                      "fill": "#1f6fd3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Kw3DJ",
+          "name": "About Section",
+          "width": "fill_container",
+          "fill": "#1A1A1A",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            100,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "gMyyJ",
+              "name": "aboutHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XrHqT",
+                  "name": "aboutLabel",
+                  "fill": "#1f6fd3",
+                  "content": "// ABOUT_ME",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Fyt4B",
+                  "name": "aboutTitle",
+                  "fill": "#FFFFFF",
+                  "content": "¿QUIÉN SOY?",
+                  "fontFamily": "Oswald",
+                  "fontSize": 48,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Pp2kZ",
+              "name": "aboutContent",
+              "width": "fill_container",
+              "gap": 60,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "2XRmK",
+                  "name": "aboutLeft",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "9E1wI",
+                      "name": "aboutP1",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Soy Fernando Escobar, desarrollador de software fullstack con más de 5 años de experiencia construyendo soluciones digitales que marcan la diferencia.",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ah3V8",
+                      "name": "aboutP2",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Me apasiona la programación, el aprendizaje constante y resolver problemas complejos. Aplico las mejores prácticas y tecnologías que mejor se adaptan a cada solución.",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qkdEh",
+                      "name": "aboutP3",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Actualmente trabajo en SincoSoft ERP, desarrollando sistemas empresariales robustos, mientras también llevo proyectos independientes para diversos clientes.",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vCOui",
+                  "name": "aboutRight",
+                  "width": 350,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AzYNv",
+                      "name": "statBox1",
+                      "width": "fill_container",
+                      "fill": "#0D0D0D",
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#3D3D3D"
+                      },
+                      "gap": 16,
+                      "padding": 24,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "h95qO",
+                          "name": "statNum1",
+                          "fill": "#1f6fd3",
+                          "content": "5+",
+                          "fontFamily": "Oswald",
+                          "fontSize": 48,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Jjblt",
+                          "name": "statLabel1",
+                          "fill": "#666666",
+                          "content": "años de\nexperiencia",
+                          "lineHeight": 1.4,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tzFAO",
+                      "name": "statBox2",
+                      "width": "fill_container",
+                      "fill": "#0D0D0D",
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#3D3D3D"
+                      },
+                      "gap": 16,
+                      "padding": 24,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "BSPBp",
+                          "name": "statNum2",
+                          "fill": "#1f6fd3",
+                          "content": "6+",
+                          "fontFamily": "Oswald",
+                          "fontSize": 48,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "02zLk",
+                          "name": "statLabel2",
+                          "fill": "#666666",
+                          "content": "proyectos\nindependientes",
+                          "lineHeight": 1.4,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lUazP",
+          "name": "Projects Section",
+          "width": "fill_container",
+          "fill": "#0D0D0D",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            100,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "MtwR4",
+              "name": "projectsHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fQj3R",
+                  "name": "projectsLabel",
+                  "fill": "#1f6fd3",
+                  "content": "// MY_PROJECTS",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "uD9Zk",
+                  "name": "projectsTitle",
+                  "fill": "#FFFFFF",
+                  "content": "PROYECTOS DESTACADOS",
+                  "fontFamily": "Oswald",
+                  "fontSize": 48,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "Dh46g",
+                  "name": "projectsDesc",
+                  "fill": "#666666",
+                  "content": "Soluciones digitales que he desarrollado para diversos clientes y sectores.",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "4IwZj",
+              "name": "projectsGrid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "SQCVL",
+                  "name": "project1",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#3D3D3D"
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "5WDhS",
+                      "name": "project1Img",
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#9B4F96",
+                            "position": 0
+                          },
+                          {
+                            "color": "#6B3A6B",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "HCHGE",
+                          "name": "mockup1",
+                          "width": 180,
+                          "height": 120,
+                          "fill": "#FFFFFF10",
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#FFFFFF20"
+                          },
+                          "layout": "vertical",
+                          "gap": 4,
+                          "padding": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "11Z0n",
+                              "name": "mockBar1",
+                              "width": "fill_container",
+                              "height": 8,
+                              "fill": "#FFFFFF20"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "yX8wr",
+                              "name": "mockContent1",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "E5lwe",
+                                  "name": "mockSide1",
+                                  "width": 40,
+                                  "height": "fill_container",
+                                  "fill": "#FFFFFF15"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "8s3GY",
+                                  "name": "mockMain1",
+                                  "width": "fill_container",
+                                  "height": "fill_container",
+                                  "fill": "#FFFFFF10"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hlqyd",
+                      "name": "project1Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "bkS2c",
+                          "name": "project1Tag",
+                          "fill": "#1f6fd3",
+                          "content": "// PSYCHOLOGY",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tnq1p",
+                          "name": "project1Name",
+                          "fill": "#FFFFFF",
+                          "content": "erikacaropsicologa.com",
+                          "fontFamily": "Oswald",
+                          "fontSize": 20,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "ULlRt",
+                          "name": "project1Desc",
+                          "fill": "#666666",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Plataforma web profesional para servicios de psicología clínica.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mt0Nd",
+                  "name": "project2",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#3D3D3D"
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "2G63p",
+                      "name": "project2Img",
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#7C3AED",
+                            "position": 0
+                          },
+                          {
+                            "color": "#4C1D95",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "YJXpC",
+                          "name": "mockup2",
+                          "width": 180,
+                          "height": 120,
+                          "fill": "#FFFFFF10",
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#FFFFFF20"
+                          },
+                          "layout": "vertical",
+                          "gap": 4,
+                          "padding": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "kfDRu",
+                              "name": "mockBar2",
+                              "width": "fill_container",
+                              "height": 8,
+                              "fill": "#FFFFFF20"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "5Mtft",
+                              "name": "mockContent2",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "GAjyu",
+                                  "name": "mockSide2",
+                                  "width": 40,
+                                  "height": "fill_container",
+                                  "fill": "#FFFFFF15"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "kZack",
+                                  "name": "mockMain2",
+                                  "width": "fill_container",
+                                  "height": "fill_container",
+                                  "fill": "#FFFFFF10"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YvsGc",
+                      "name": "project2Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "QhPIi",
+                          "name": "project2Tag",
+                          "fill": "#1f6fd3",
+                          "content": "// MENTAL_HEALTH",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VQ3jL",
+                          "name": "project2Name",
+                          "fill": "#FFFFFF",
+                          "content": "psikora.com",
+                          "fontFamily": "Oswald",
+                          "fontSize": 20,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "bXd22",
+                          "name": "project2Desc",
+                          "fill": "#666666",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Aplicación para gestión y seguimiento de salud mental.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GxKts",
+                  "name": "project3",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#3D3D3D"
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VOaWP",
+                      "name": "project3Img",
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#D97706",
+                            "position": 0
+                          },
+                          {
+                            "color": "#92400E",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "FTUlp",
+                          "name": "mockup3",
+                          "width": 180,
+                          "height": 120,
+                          "fill": "#FFFFFF10",
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#FFFFFF20"
+                          },
+                          "layout": "vertical",
+                          "gap": 4,
+                          "padding": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "SmBIT",
+                              "name": "mockBar3",
+                              "width": "fill_container",
+                              "height": 8,
+                              "fill": "#FFFFFF20"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "0Wg8v",
+                              "name": "mockContent3",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "Xnl9f",
+                                  "name": "mockSide3",
+                                  "width": 40,
+                                  "height": "fill_container",
+                                  "fill": "#FFFFFF15"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "kopBa",
+                                  "name": "mockMain3",
+                                  "width": "fill_container",
+                                  "height": "fill_container",
+                                  "fill": "#FFFFFF10"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "abDJB",
+                      "name": "project3Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "XTb0f",
+                          "name": "project3Tag",
+                          "fill": "#1f6fd3",
+                          "content": "// E-COMMERCE",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "BVoko",
+                          "name": "project3Name",
+                          "fill": "#FFFFFF",
+                          "content": "receramica.com",
+                          "fontFamily": "Oswald",
+                          "fontSize": 20,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "9gjdq",
+                          "name": "project3Desc",
+                          "fill": "#666666",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Tienda online para productos de cerámica artesanal.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zPNgv",
+              "name": "projectsGrid2",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "cgNcP",
+                  "name": "project4",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#3D3D3D"
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "uT0hy",
+                      "name": "project4Img",
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#059669",
+                            "position": 0
+                          },
+                          {
+                            "color": "#065F46",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "rpRUF",
+                          "name": "mockup4",
+                          "width": 180,
+                          "height": 120,
+                          "fill": "#FFFFFF10",
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#FFFFFF20"
+                          },
+                          "layout": "vertical",
+                          "gap": 4,
+                          "padding": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "I55sG",
+                              "name": "mockBar4",
+                              "width": "fill_container",
+                              "height": 8,
+                              "fill": "#FFFFFF20"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "fANCH",
+                              "name": "mockContent4",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "fZN7h",
+                                  "name": "mockSide4",
+                                  "width": 40,
+                                  "height": "fill_container",
+                                  "fill": "#FFFFFF15"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "iaJY6",
+                                  "name": "mockMain4",
+                                  "width": "fill_container",
+                                  "height": "fill_container",
+                                  "fill": "#FFFFFF10"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xQ5Ae",
+                      "name": "project4Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "8kQJV",
+                          "name": "project4Tag",
+                          "fill": "#1f6fd3",
+                          "content": "// FINTECH",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fv7rd",
+                          "name": "project4Name",
+                          "fill": "#FFFFFF",
+                          "content": "exchangelatam.com",
+                          "fontFamily": "Oswald",
+                          "fontSize": 20,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "uQYle",
+                          "name": "project4Desc",
+                          "fill": "#666666",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Plataforma de cambio de divisas para Latinoamérica.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Ivvtx",
+                  "name": "project5",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#3D3D3D"
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "v3Z9h",
+                      "name": "project5Img",
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#EC4899",
+                            "position": 0
+                          },
+                          {
+                            "color": "#9D174D",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "y9bL5",
+                          "name": "mockup5",
+                          "width": 180,
+                          "height": 120,
+                          "fill": "#FFFFFF10",
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#FFFFFF20"
+                          },
+                          "layout": "vertical",
+                          "gap": 4,
+                          "padding": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "S8Asx",
+                              "name": "mockBar5",
+                              "width": "fill_container",
+                              "height": 8,
+                              "fill": "#FFFFFF20"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "vMAnV",
+                              "name": "mockContent5",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "p2hza",
+                                  "name": "mockSide5",
+                                  "width": 40,
+                                  "height": "fill_container",
+                                  "fill": "#FFFFFF15"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "CWVmU",
+                                  "name": "mockMain5",
+                                  "width": "fill_container",
+                                  "height": "fill_container",
+                                  "fill": "#FFFFFF10"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "7MGx5",
+                      "name": "project5Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pgnEk",
+                          "name": "project5Tag",
+                          "fill": "#1f6fd3",
+                          "content": "// SOCIAL_IMPACT",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "pByyY",
+                          "name": "project5Name",
+                          "fill": "#FFFFFF",
+                          "content": "amiganoestassola.com",
+                          "fontFamily": "Oswald",
+                          "fontSize": 20,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "Nenvs",
+                          "name": "project5Desc",
+                          "fill": "#666666",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Red de apoyo y acompañamiento emocional para mujeres.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VGmJt",
+                  "name": "project6",
+                  "width": "fill_container",
+                  "fill": "#1f6fd3",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "sblb5",
+                      "name": "project6Img",
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#1A1A1A",
+                            "position": 0
+                          },
+                          {
+                            "color": "#0D0D0D",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "a9gIn",
+                          "name": "mockup6",
+                          "width": 180,
+                          "height": 120,
+                          "fill": "#1f6fd320",
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#1f6fd340"
+                          },
+                          "layout": "vertical",
+                          "gap": 4,
+                          "padding": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "iM4cc",
+                              "name": "mockBar6",
+                              "width": "fill_container",
+                              "height": 8,
+                              "fill": "#1f6fd330"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "mtXpd",
+                              "name": "mockContent6",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "Gn4PB",
+                                  "name": "mockSide6",
+                                  "width": 40,
+                                  "height": "fill_container",
+                                  "fill": "#1f6fd325"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "2Fy2e",
+                                  "name": "mockMain6",
+                                  "width": "fill_container",
+                                  "height": "fill_container",
+                                  "fill": "#1f6fd315"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "sMbhw",
+                          "name": "comingSoon",
+                          "fill": "#1f6fd3",
+                          "content": "PRÓXIMAMENTE",
+                          "fontFamily": "Oswald",
+                          "fontSize": 14,
+                          "fontWeight": "600",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "3hLXl",
+                      "name": "project6Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xwY2H",
+                          "name": "project6Tag",
+                          "fill": "#0D0D0D",
+                          "content": "// COMING_SOON",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "KxtS4",
+                          "name": "project6Name",
+                          "fill": "#0D0D0D",
+                          "content": "companypolygraph.com",
+                          "fontFamily": "Oswald",
+                          "fontSize": 20,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "A1hkc",
+                          "name": "project6Desc",
+                          "fill": "#0D0D0D",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Sistema de evaluaciones poligráficas empresariales. Próximamente.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pLUuS",
+          "name": "Skills Section",
+          "width": "fill_container",
+          "fill": "#1A1A1A",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            100,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "4UFDe",
+              "name": "skillsHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "14nfR",
+                  "name": "skillsLabel",
+                  "fill": "#1f6fd3",
+                  "content": "// TECH_STACK",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "4hfOr",
+                  "name": "skillsTitle",
+                  "fill": "#FFFFFF",
+                  "content": "TECNOLOGÍAS",
+                  "fontFamily": "Oswald",
+                  "fontSize": 48,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "1hkW8",
+                  "name": "skillsDesc",
+                  "fill": "#666666",
+                  "content": "Las herramientas que uso para construir soluciones de alto impacto.",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "44mFW",
+              "name": "skillsGrid",
+              "width": "fill_container",
+              "gap": 16,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "SwFZ3",
+                  "name": "skill1",
+                  "width": 150,
+                  "fill": "#0D0D0D",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#3D3D3D"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "O8EJD",
+                      "name": "skill1Icon",
+                      "fill": "#9B4F96",
+                      "content": "C#",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "1X1yv",
+                      "name": "skill1Name",
+                      "fill": "#FFFFFF",
+                      "content": "C#",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wmJkG",
+                  "name": "skill2",
+                  "width": 150,
+                  "fill": "#0D0D0D",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#3D3D3D"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "4kxYD",
+                      "name": "skill2Icon",
+                      "fill": "#512BD4",
+                      "content": ".NET",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "5YWWT",
+                      "name": "skill2Name",
+                      "fill": "#FFFFFF",
+                      "content": ".NET",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "1AHPJ",
+                  "name": "skill3",
+                  "width": 150,
+                  "fill": "#0D0D0D",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#3D3D3D"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OZnH8",
+                      "name": "skill3Icon",
+                      "fill": "#F7DF1E",
+                      "content": "JS",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CZIol",
+                      "name": "skill3Name",
+                      "fill": "#FFFFFF",
+                      "content": "JavaScript",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YNPl3",
+                  "name": "skill4",
+                  "width": 150,
+                  "fill": "#0D0D0D",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#3D3D3D"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "G4hK8",
+                      "name": "skill4Icon",
+                      "fill": "#3178C6",
+                      "content": "TS",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "h8yz3",
+                      "name": "skill4Name",
+                      "fill": "#FFFFFF",
+                      "content": "TypeScript",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "iexnI",
+                  "name": "skill5",
+                  "width": 150,
+                  "fill": "#1f6fd3",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mXCWi",
+                      "name": "skill5Icon",
+                      "fill": "#0D0D0D",
+                      "content": "React",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "0Tmsd",
+                      "name": "skill5Name",
+                      "fill": "#0D0D0D",
+                      "content": "React",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pUGFc",
+                  "name": "skill6",
+                  "width": 150,
+                  "fill": "#0D0D0D",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#3D3D3D"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wavNE",
+                      "name": "skill6Icon",
+                      "fill": "#4FC08D",
+                      "content": "Vue",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "SMqGH",
+                      "name": "skill6Name",
+                      "fill": "#FFFFFF",
+                      "content": "Vue.js",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CI0Qh",
+                  "name": "skill7",
+                  "width": 150,
+                  "fill": "#0D0D0D",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#3D3D3D"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "E9qCY",
+                      "name": "skill7Icon",
+                      "fill": "#00D4AA",
+                      "content": "SQL",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "0mPOk",
+                      "name": "skill7Name",
+                      "fill": "#FFFFFF",
+                      "content": "SQL Server",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "2hzMi",
+              "name": "skillsGrid2",
+              "width": "fill_container",
+              "gap": 16,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "IlvTq",
+                  "name": "skill8",
+                  "width": 150,
+                  "fill": "#0D0D0D",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#3D3D3D"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cPYE3",
+                      "name": "skill8Icon",
+                      "fill": "#339933",
+                      "content": "Node",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Kenia",
+                      "name": "skill8Name",
+                      "fill": "#FFFFFF",
+                      "content": "Node.js",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oyBSH",
+                  "name": "skill9",
+                  "width": 150,
+                  "fill": "#0D0D0D",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#3D3D3D"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "5wmSG",
+                      "name": "skill9Icon",
+                      "fill": "#DD0031",
+                      "content": "Ng",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "T3nYM",
+                      "name": "skill9Name",
+                      "fill": "#FFFFFF",
+                      "content": "Angular",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4N1SN",
+                  "name": "skill10",
+                  "width": 150,
+                  "fill": "#0D0D0D",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#3D3D3D"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BcdOh",
+                      "name": "skill10Icon",
+                      "fill": "#F05032",
+                      "content": "Git",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dKgKG",
+                      "name": "skill10Name",
+                      "fill": "#FFFFFF",
+                      "content": "Git",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pC9mu",
+                  "name": "skill11",
+                  "width": 150,
+                  "fill": "#0D0D0D",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#3D3D3D"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "S6xpM",
+                      "name": "skill11Icon",
+                      "fill": "#FF9900",
+                      "content": "AWS",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "upk9u",
+                      "name": "skill11Name",
+                      "fill": "#FFFFFF",
+                      "content": "AWS",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "9O67K",
+                  "name": "skill12",
+                  "width": 150,
+                  "fill": "#0D0D0D",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#3D3D3D"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tPr1c",
+                      "name": "skill12Icon",
+                      "fill": "#1572B6",
+                      "content": "CSS",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "awSSI",
+                      "name": "skill12Name",
+                      "fill": "#FFFFFF",
+                      "content": "CSS/SASS",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "9VvLY",
+                  "name": "skill13",
+                  "width": 150,
+                  "fill": "#0D0D0D",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#3D3D3D"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fLyRT",
+                      "name": "skill13Icon",
+                      "fill": "#00D4AA",
+                      "content": "API",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Fncme",
+                      "name": "skill13Name",
+                      "fill": "#FFFFFF",
+                      "content": "REST APIs",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qI4Xy",
+                  "name": "skill14",
+                  "width": 150,
+                  "fill": "#0D0D0D",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#3D3D3D"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "5i3Zd",
+                      "name": "skill14Icon",
+                      "fill": "#47A248",
+                      "content": "DB",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CIsdW",
+                      "name": "skill14Name",
+                      "fill": "#FFFFFF",
+                      "content": "MongoDB",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lZVNc",
+          "name": "CTA Section",
+          "width": "fill_container",
+          "fill": "#1f6fd3",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            120,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "kgf02",
+              "name": "ctaLabel",
+              "fill": "#0D0D0D",
+              "content": "// LET'S_BUILD_TOGETHER",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "x34Wu",
+              "name": "ctaTitle",
+              "fill": "#0D0D0D",
+              "content": "¿TIENES UN PROYECTO EN MENTE?",
+              "textAlign": "center",
+              "fontFamily": "Oswald",
+              "fontSize": 56,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "7NVHM",
+              "name": "ctaDesc",
+              "fill": "#0D0D0D",
+              "content": "Estoy disponible para proyectos freelance y colaboraciones.",
+              "textAlign": "center",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "cb5FW",
+              "name": "ctaBtns",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "a2afe",
+                  "name": "ctaBtn1",
+                  "fill": "#0D0D0D",
+                  "gap": 8,
+                  "padding": [
+                    16,
+                    32
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hYkSa",
+                      "name": "ctaBtn1Text",
+                      "fill": "#FFFFFF",
+                      "content": "sendEmail()",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Q9BsO",
+                  "name": "ctaBtn2",
+                  "fill": "transparent",
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#0D0D0D"
+                  },
+                  "gap": 8,
+                  "padding": [
+                    16,
+                    32
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bFjJC",
+                      "name": "ctaBtn2Text",
+                      "fill": "#0D0D0D",
+                      "content": "viewLinkedIn()",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "jRLwK",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#0D0D0D",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            60,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "UhLGf",
+              "name": "footerMain",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "9pGC5",
+                  "name": "footerLeft",
+                  "width": 400,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ZNhnR",
+                      "name": "footerLogo",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "20Zm1",
+                          "name": "footerLogoIcon",
+                          "fill": "#1f6fd3",
+                          "content": "</>",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xJeZs",
+                          "name": "footerLogoName",
+                          "fill": "#FFFFFF",
+                          "content": "fernando.escobar",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "SAMr1",
+                      "name": "footerTagline",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Desarrollador Fullstack apasionado por crear soluciones digitales que generan impacto.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tnDjK",
+                  "name": "footerRight",
+                  "gap": 80,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "JNvH3",
+                      "name": "footerCol1",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FfWya",
+                          "name": "footerCol1Title",
+                          "fill": "#1f6fd3",
+                          "content": "// NAVEGACIÓN",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mLJwB",
+                          "name": "footerLink1",
+                          "fill": "#666666",
+                          "content": "about()",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wClxO",
+                          "name": "footerLink2",
+                          "fill": "#666666",
+                          "content": "projects()",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "syYdW",
+                          "name": "footerLink3",
+                          "fill": "#666666",
+                          "content": "skills()",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Fsi3R",
+                      "name": "footerCol2",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DQ8YQ",
+                          "name": "footerCol2Title",
+                          "fill": "#1f6fd3",
+                          "content": "// CONTACTO",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wk0Pw",
+                          "name": "footerEmail",
+                          "fill": "#666666",
+                          "content": "contacto@fernandoescobar.dev",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "sHGrk",
+                          "name": "footerLocation",
+                          "fill": "#666666",
+                          "content": "Colombia",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "E1oTY",
+                      "name": "footerCol3",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "et58f",
+                          "name": "footerCol3Title",
+                          "fill": "#1f6fd3",
+                          "content": "// SOCIAL",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "m0CZZ",
+                          "name": "footerGithub",
+                          "fill": "#666666",
+                          "content": "GitHub",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "bXkUm",
+                          "name": "footerLinkedin",
+                          "fill": "#666666",
+                          "content": "LinkedIn",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "iy1Vy",
+                          "name": "footerTwitter",
+                          "fill": "#666666",
+                          "content": "Twitter",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "skKzY",
+              "name": "footerBottom",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "#3D3D3D"
+              },
+              "padding": [
+                24,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ZQNbU",
+                  "name": "footerCopyright",
+                  "fill": "#666666",
+                  "content": "© 2025 Fernando Escobar. Todos los derechos reservados.",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ke9lb",
+                  "name": "footerMade",
+                  "fill": "#666666",
+                  "content": "Diseñado y desarrollado con pasión.",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
