@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+:root {
+  /* Design System Colors */
+  --color-bg-primary: #0D0D0D;
+  --color-bg-secondary: #1A1A1A;
+  --color-accent: #1f6fd3;
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #666666;
+  --color-border: #3D3D3D;
+
+  /* Skill Colors */
+  --color-csharp: #9B4F96;
+  --color-dotnet: #512BD4;
+  --color-javascript: #F7DF1E;
+  --color-typescript: #3178C6;
+  --color-react: #61DAFB;
+  --color-vue: #4FC08D;
+  --color-sql: #00D4AA;
+  --color-node: #339933;
+  --color-angular: #DD0031;
+  --color-git: #F05032;
+  --color-aws: #FF9900;
+  --color-css: #1572B6;
+  --color-mongodb: #47A248;
+
+  /* Terminal Colors */
+  --color-terminal-red: #FF5F56;
+  --color-terminal-yellow: #FFBD2E;
+  --color-terminal-green: #27CA40;
+  --color-code-string: #00D4AA;
+}
+
+@layer base {
+  html, body {
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+
+  .font-primary {
+    font-family: var(--font-jetbrains-mono), "JetBrains Mono", monospace;
+  }
+
+  .font-display {
+    font-family: var(--font-oswald), "Oswald", sans-serif;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-bg-primary);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-accent);
+  }
+
+  /* Selection */
+  ::selection {
+    background: var(--color-accent);
+    color: var(--color-bg-primary);
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, var(--color-accent) 0%, #3b82f6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .animate-pulse-slow {
+    animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .animate-typing {
+    animation: blink 1s step-end infinite;
+  }
+
+  @keyframes blink {
+    from, to {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+}
