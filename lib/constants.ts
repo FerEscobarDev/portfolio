@@ -105,9 +105,10 @@ export const CONTACT_LINKS: ContactLink[] = [
 ];
 
 export const SOCIAL_LINKS: SocialLink[] = [
-  { label: "GitHub", href: "https://github.com/fernandoescobar" },
-  { label: "LinkedIn", href: "https://linkedin.com/in/fernandoescobar" },
-  { label: "Twitter", href: "https://twitter.com/fernandoescobar" },
+  { label: "GitHub", href: "https://github.com/FerEscobarDev" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/jeisonfernandoescobarbermudezdev/" },
+  // { label: "Twitter", href: "https://twitter.com/fernandoescobar" },
+  { label: "Instagram", href: "https://www.instagram.com/ferescb?igsh=MTU0aXU1azdqNTlxMA==" },
 ];
 
 export const STATS = [

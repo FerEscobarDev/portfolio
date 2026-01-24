@@ -2,69 +2,8 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-
-interface Project {
-  id: string;
-  tag: string;
-  name: string;
-  description: string;
-  gradient: string;
-  isComingSoon?: boolean;
-  url?: string;
-}
-
-const projects: Project[] = [
-  {
-    id: "1",
-    tag: "// PSYCHOLOGY",
-    name: "erikacaropsicologa.com",
-    description:
-      "Plataforma web profesional para servicios de psicología clínica.",
-    gradient: "from-[#9B4F96] to-[#6B3A6B]",
-    url: "https://erikacaropsicologa.com",
-  },
-  {
-    id: "2",
-    tag: "// MENTAL_HEALTH",
-    name: "psikora.com",
-    description: "Aplicación para gestión y seguimiento de salud mental.",
-    gradient: "from-[#7C3AED] to-[#4C1D95]",
-    url: "https://psikora.com",
-  },
-  {
-    id: "3",
-    tag: "// E-COMMERCE",
-    name: "receramica.com",
-    description: "Tienda online para productos de cerámica artesanal.",
-    gradient: "from-[#D97706] to-[#92400E]",
-    url: "https://receramica.com",
-  },
-  {
-    id: "4",
-    tag: "// FINTECH",
-    name: "exchangelatam.com",
-    description: "Plataforma de cambio de divisas para Latinoamérica.",
-    gradient: "from-[#059669] to-[#065F46]",
-    url: "https://exchangelatam.com",
-  },
-  {
-    id: "5",
-    tag: "// SOCIAL_IMPACT",
-    name: "amiganoestassola.com",
-    description: "Red de apoyo y acompañamiento emocional para mujeres.",
-    gradient: "from-[#EC4899] to-[#9D174D]",
-    url: "https://amiganoestassola.com",
-  },
-  {
-    id: "6",
-    tag: "// COMING_SOON",
-    name: "companypolygraph.com",
-    description:
-      "Sistema de evaluaciones poligráficas empresariales. Próximamente.",
-    gradient: "from-[#1A1A1A] to-[#0D0D0D]",
-    isComingSoon: true,
-  },
-];
+import type { Project } from "@/types";
+import { PROJECTS } from "@/lib/constants";
 
 interface CardContentProps {
   project: Project;
@@ -233,7 +172,7 @@ export default function ProjectsSection() {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {projects.map((project, index) => (
+            {PROJECTS.map((project, index) => (
               <ProjectCard key={project.id} project={project} index={index} />
             ))}
           </div>

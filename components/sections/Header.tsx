@@ -3,13 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Button from "@/components/ui/Button";
-
-const navItems = [
-  { label: "// about", href: "#about" },
-  { label: "// projects", href: "#projects" },
-  { label: "// skills", href: "#skills" },
-  { label: "// contact", href: "#contact" },
-];
+import { NAV_ITEMS } from "@/lib/constants";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -53,7 +47,7 @@ export default function Header() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-10">
-          {navItems.map((item, index) => (
+          {NAV_ITEMS.map((item, index) => (
             <motion.a
               key={item.href}
               href={item.href}
@@ -120,7 +114,7 @@ export default function Header() {
             className="md:hidden bg-[var(--color-bg-primary)] border-b border-[var(--color-border)]"
           >
             <div className="px-6 py-4 flex flex-col gap-4">
-              {navItems.map((item, index) => (
+              {NAV_ITEMS.map((item, index) => (
                 <motion.a
                   key={item.href}
                   href={item.href}

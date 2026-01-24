@@ -3,40 +3,14 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import Button from "@/components/ui/Button";
-
-const codeLines = [
-  { content: "const developer = {", color: "text-white" },
-  {
-    content: "  name: 'Fernando Escobar',",
-    color: "text-[var(--color-code-string)]",
-  },
-  {
-    content: "  role: 'Fullstack Developer',",
-    color: "text-[var(--color-code-string)]",
-  },
-  {
-    content: "  experience: '5+ years',",
-    color: "text-[var(--color-code-string)]",
-  },
-  {
-    content: "  passion: 'Building solutions',",
-    color: "text-[var(--color-code-string)]",
-  },
-  { content: "  status: 'Available'", color: "text-[var(--color-accent)]" },
-  { content: "};", color: "text-white" },
-  { content: " ", color: "text-white" },
-  {
-    content: "developer.createAwesomeThings();",
-    color: "text-[var(--color-accent)]",
-  },
-];
+import { CODE_LINES } from "@/lib/constants";
 
 function TerminalWindow() {
   const [visibleLines, setVisibleLines] = useState(0);
   const [showCursor, setShowCursor] = useState(true);
 
   useEffect(() => {
-    if (visibleLines < codeLines.length) {
+    if (visibleLines < CODE_LINES.length) {
       const timer = setTimeout(() => {
         setVisibleLines((prev) => prev + 1);
       }, 150);
@@ -70,7 +44,7 @@ function TerminalWindow() {
 
       {/* Code Block */}
       <div className="flex-1 flex flex-col gap-1">
-        {codeLines.slice(0, visibleLines).map((line, index) => (
+        {CODE_LINES.slice(0, visibleLines).map((line, index) => (
           <motion.div
             key={index}
             initial={{ opacity: 0, x: -10 }}
@@ -81,7 +55,7 @@ function TerminalWindow() {
             {line.content}
           </motion.div>
         ))}
-        {visibleLines >= codeLines.length && (
+        {visibleLines >= CODE_LINES.length && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

@@ -2,6 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import { STATS } from "@/lib/constants";
 
 interface StatBoxProps {
   number: string;
@@ -118,16 +119,14 @@ export default function AboutSection() {
 
             {/* Right - Stats */}
             <div className="w-full lg:w-[350px] flex flex-col gap-4">
-              <StatBox
-                number="5+"
-                label={`años de\nexperiencia`}
-                delay={0.3}
-              />
-              <StatBox
-                number="6+"
-                label={`proyectos\nindependientes`}
-                delay={0.4}
-              />
+              {STATS.map((stat, index) => (
+                <StatBox
+                  key={stat.number}
+                  number={stat.number}
+                  label={stat.label}
+                  delay={0.3 + index * 0.1}
+                />
+              ))}
             </div>
           </div>
         </motion.div>

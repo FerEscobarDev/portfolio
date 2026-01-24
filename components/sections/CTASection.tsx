@@ -2,6 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import { SITE_CONFIG, SOCIAL_LINKS } from "@/lib/constants";
 
 export default function CTASection() {
   const ref = useRef(null);
@@ -53,7 +54,7 @@ export default function CTASection() {
             className="flex flex-wrap justify-center gap-4 mt-4"
           >
             <motion.a
-              href="mailto:contacto@fernandoescobar.dev"
+              href={`mailto:${SITE_CONFIG.email}`}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="inline-flex items-center justify-center bg-[var(--color-bg-primary)] text-[var(--color-text-primary)] px-8 py-4 text-sm font-semibold transition-all duration-300 hover:brightness-110"
@@ -62,7 +63,7 @@ export default function CTASection() {
             </motion.a>
 
             <motion.a
-              href="https://linkedin.com/in/fernandoescobar"
+              href={SOCIAL_LINKS.find(link => link.label === "LinkedIn")?.href ?? "#"}
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}

@@ -2,33 +2,8 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-
-interface Skill {
-  icon: string;
-  name: string;
-  color: string;
-  isHighlighted?: boolean;
-}
-
-const skillsRow1: Skill[] = [
-  { icon: "C#", name: "C#", color: "#9B4F96" },
-  { icon: ".NET", name: ".NET", color: "#512BD4" },
-  { icon: "JS", name: "JavaScript", color: "#F7DF1E" },
-  { icon: "TS", name: "TypeScript", color: "#3178C6" },
-  { icon: "React", name: "React", color: "#0D0D0D", isHighlighted: true },
-  { icon: "Vue", name: "Vue.js", color: "#4FC08D" },
-  { icon: "SQL", name: "SQL Server", color: "#00D4AA" },
-];
-
-const skillsRow2: Skill[] = [
-  { icon: "Node", name: "Node.js", color: "#339933" },
-  { icon: "Ng", name: "Angular", color: "#DD0031" },
-  { icon: "Git", name: "Git", color: "#F05032" },
-  { icon: "AWS", name: "AWS", color: "#FF9900" },
-  { icon: "CSS", name: "CSS/SASS", color: "#1572B6" },
-  { icon: "API", name: "REST APIs", color: "#00D4AA" },
-  { icon: "DB", name: "MongoDB", color: "#47A248" },
-];
+import type { Skill } from "@/types";
+import { SKILLS_ROW_1, SKILLS_ROW_2 } from "@/lib/constants";
 
 interface SkillCardProps {
   skill: Skill;
@@ -112,7 +87,7 @@ export default function SkillsSection() {
 
           {/* Skills Grid Row 1 */}
           <div className="flex flex-wrap justify-center gap-4">
-            {skillsRow1.map((skill, index) => (
+            {SKILLS_ROW_1.map((skill, index) => (
               <SkillCard
                 key={skill.name}
                 skill={skill}
@@ -124,7 +99,7 @@ export default function SkillsSection() {
 
           {/* Skills Grid Row 2 */}
           <div className="flex flex-wrap justify-center gap-4">
-            {skillsRow2.map((skill, index) => (
+            {SKILLS_ROW_2.map((skill, index) => (
               <SkillCard
                 key={skill.name}
                 skill={skill}

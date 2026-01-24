@@ -2,23 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-
-const navigation = [
-  { label: "about()", href: "#about" },
-  { label: "projects()", href: "#projects" },
-  { label: "skills()", href: "#skills" },
-];
-
-const contact = [
-  { label: "contacto@fernandoescobar.dev", href: "mailto:contacto@fernandoescobar.dev" },
-  { label: "Colombia", href: "#" },
-];
-
-const social = [
-  { label: "GitHub", href: "https://github.com/fernandoescobar" },
-  { label: "LinkedIn", href: "https://linkedin.com/in/fernandoescobar" },
-  { label: "Twitter", href: "https://twitter.com/fernandoescobar" },
-];
+import { NAVIGATION_LINKS, CONTACT_LINKS, SOCIAL_LINKS } from "@/lib/constants";
 
 export default function Footer() {
   const ref = useRef(null);
@@ -66,7 +50,7 @@ export default function Footer() {
                   {"// NAVEGACIÓN"}
                 </span>
                 <div className="flex flex-col gap-2">
-                  {navigation.map((item) => (
+                  {NAVIGATION_LINKS.map((item) => (
                     <motion.a
                       key={item.label}
                       href={item.href}
@@ -85,7 +69,7 @@ export default function Footer() {
                   {"// CONTACTO"}
                 </span>
                 <div className="flex flex-col gap-2">
-                  {contact.map((item) => (
+                  {CONTACT_LINKS.map((item) => (
                     <motion.a
                       key={item.label}
                       href={item.href}
@@ -104,7 +88,7 @@ export default function Footer() {
                   {"// SOCIAL"}
                 </span>
                 <div className="flex flex-col gap-2">
-                  {social.map((item) => (
+                  {SOCIAL_LINKS.map((item) => (
                     <motion.a
                       key={item.label}
                       href={item.href}
