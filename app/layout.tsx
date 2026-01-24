@@ -67,19 +67,19 @@ export const metadata: Metadata = {
       "Desarrollador Fullstack con +5 años de experiencia. Transformando ideas en código que impacta.",
     images: [
       {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
+        url: "/img/icon.png",
+        width: 512,
+        height: 512,
         alt: "Fernando Escobar - Desarrollador Fullstack",
       },
     ],
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     title: "Fernando Escobar | Desarrollador Fullstack",
     description:
       "Desarrollador Fullstack con +5 años de experiencia. Transformando ideas en código que impacta.",
-    images: ["/og-image.png"],
+    images: ["/img/icon.png"],
     creator: "@fernandoescobar",
   },
   alternates: {
@@ -96,8 +96,8 @@ export default function RootLayout({
   return (
     <html lang="es" className="scroll-smooth">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" href="/img/icon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/img/icon.png" />
         <link rel="manifest" href="/manifest.json" />
         <JsonLd />
       </head>
