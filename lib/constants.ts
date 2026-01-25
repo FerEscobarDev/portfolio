@@ -23,7 +23,7 @@ export const PROJECTS: Project[] = [
     tag: "// PSYCHOLOGY",
     name: "erikacaropsicologa.com",
     description:
-      "Plataforma web profesional para servicios de psicología clínica.",
+      "Plataforma web profesional para servicios de psicología de Erika Caro.",
     gradient: "from-[#9B4F96] to-[#6B3A6B]",
     url: "https://erikacaropsicologa.com",
     image: "/img/ErikaCaroPsicologa.png",
@@ -32,7 +32,7 @@ export const PROJECTS: Project[] = [
     id: "2",
     tag: "// MENTAL_HEALTH",
     name: "psikora.com",
-    description: "Aplicación para gestión y seguimiento de salud mental.",
+    description: "Aplicación para psicólogos de gestión y seguimiento de pacientes.",
     gradient: "from-[#7C3AED] to-[#4C1D95]",
     url: "https://psikora.com",
     image: "/img/Psikora.png",
@@ -41,7 +41,7 @@ export const PROJECTS: Project[] = [
     id: "3",
     tag: "// E-COMMERCE",
     name: "receramica.com",
-    description: "Tienda online para productos de cerámica artesanal.",
+    description: "Plataforma web profesional del artista Ricardo Escobar, ceramista colombiano.",
     gradient: "from-[#D97706] to-[#92400E]",
     url: "https://receramica.com",
     image: "/img/Receramica.png",
@@ -68,9 +68,9 @@ export const PROJECTS: Project[] = [
     id: "6",
     tag: "// COMING_SOON",
     name: "companypolygraph.com",
-    description:
-      "Sistema de evaluaciones poligráficas empresariales. Próximamente.",
+    description: "Pagina web para empresa de servicios de seguridad y poligrafía. Próximamente.",
     gradient: "from-[#1A1A1A] to-[#0D0D0D]",
+    url: "https://companypolygraph.com",
     isComingSoon: true,
   },
 ];
