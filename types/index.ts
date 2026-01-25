@@ -13,6 +13,7 @@ export interface Project {
   gradient: string;
   isComingSoon?: boolean;
   url?: string;
+  image?: string;
 }
 
 // Skill Types

@@ -26,6 +26,7 @@ export const PROJECTS: Project[] = [
       "Plataforma web profesional para servicios de psicología clínica.",
     gradient: "from-[#9B4F96] to-[#6B3A6B]",
     url: "https://erikacaropsicologa.com",
+    image: "/img/ErikaCaroPsicologa.png",
   },
   {
     id: "2",
@@ -34,6 +35,7 @@ export const PROJECTS: Project[] = [
     description: "Aplicación para gestión y seguimiento de salud mental.",
     gradient: "from-[#7C3AED] to-[#4C1D95]",
     url: "https://psikora.com",
+    image: "/img/Psikora.png",
   },
   {
     id: "3",
@@ -42,6 +44,7 @@ export const PROJECTS: Project[] = [
     description: "Tienda online para productos de cerámica artesanal.",
     gradient: "from-[#D97706] to-[#92400E]",
     url: "https://receramica.com",
+    image: "/img/Receramica.png",
   },
   {
     id: "4",
@@ -50,6 +53,7 @@ export const PROJECTS: Project[] = [
     description: "Plataforma de cambio de divisas para Latinoamérica.",
     gradient: "from-[#059669] to-[#065F46]",
     url: "https://exchangelatam.com",
+    image: "/img/Exchangelatam.png",
   },
   {
     id: "5",
@@ -58,6 +62,7 @@ export const PROJECTS: Project[] = [
     description: "Red de apoyo y acompañamiento emocional para mujeres.",
     gradient: "from-[#EC4899] to-[#9D174D]",
     url: "https://amiganoestassola.com",
+    image: "/img/AmigaNoEstasSola.png",
   },
   {
     id: "6",
