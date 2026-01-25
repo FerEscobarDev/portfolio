@@ -14,14 +14,16 @@ function CardContent({ project }: CardContentProps) {
   return (
     <>
       <div
-        className={`relative h-[240px] bg-gradient-to-br ${project.gradient} flex items-center justify-center overflow-hidden group py-6`}
+        className={`relative h-[240px] bg-gradient-to-br ${project.gradient} flex items-center justify-center overflow-hidden group`}
       >
         {project.image ? (
-          <BrowserFrame
-            src={project.image}
-            alt={`Captura de ${project.name}`}
-            url={project.url}
-          />
+          <div className="absolute inset-2">
+            <BrowserFrame
+              src={project.image}
+              alt={`Captura de ${project.name}`}
+              url={project.url}
+            />
+          </div>
         ) : (
           <motion.div
             whileHover={{ scale: 1.05, y: -5 }}
