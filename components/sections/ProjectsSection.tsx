@@ -4,6 +4,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import type { Project } from "@/types";
 import { PROJECTS } from "@/lib/constants";
+import BrowserFrame from "@/components/ui/BrowserFrame";
 
 interface CardContentProps {
   project: Project;
@@ -13,41 +14,51 @@ function CardContent({ project }: CardContentProps) {
   return (
     <>
       <div
-        className={`relative h-[200px] bg-gradient-to-br ${project.gradient} flex items-center justify-center overflow-hidden group`}
+        className={`relative h-[240px] bg-gradient-to-br ${project.gradient} flex items-center justify-center overflow-hidden group`}
       >
-        <motion.div
-          whileHover={{ scale: 1.05, y: -5 }}
-          transition={{ duration: 0.3 }}
-          className={`w-[180px] h-[120px] ${
-            project.isComingSoon
-              ? "bg-[var(--color-accent)]/20 border-[var(--color-accent)]/40"
-              : "bg-white/10 border-white/20"
-          } border backdrop-blur-sm flex flex-col gap-1 p-2`}
-        >
-          <div
-            className={`w-full h-2 ${
-              project.isComingSoon
-                ? "bg-[var(--color-accent)]/30"
-                : "bg-white/20"
-            } rounded-sm`}
-          />
-          <div className="flex-1 flex gap-2">
-            <div
-              className={`w-10 h-full ${
-                project.isComingSoon
-                  ? "bg-[var(--color-accent)]/25"
-                  : "bg-white/15"
-              }`}
-            />
-            <div
-              className={`flex-1 ${
-                project.isComingSoon
-                  ? "bg-[var(--color-accent)]/10"
-                  : "bg-white/10"
-              }`}
+        {project.image ? (
+          <div className="absolute inset-2">
+            <BrowserFrame
+              src={project.image}
+              alt={`Captura de ${project.name}`}
+              url={project.url}
             />
           </div>
-        </motion.div>
+        ) : (
+          <motion.div
+            whileHover={{ scale: 1.05, y: -5 }}
+            transition={{ duration: 0.3 }}
+            className={`w-[180px] h-[120px] ${
+              project.isComingSoon
+                ? "bg-[var(--color-accent)]/20 border-[var(--color-accent)]/40"
+                : "bg-white/10 border-white/20"
+            } border backdrop-blur-sm flex flex-col gap-1 p-2`}
+          >
+            <div
+              className={`w-full h-2 ${
+                project.isComingSoon
+                  ? "bg-[var(--color-accent)]/30"
+                  : "bg-white/20"
+              } rounded-sm`}
+            />
+            <div className="flex-1 flex gap-2">
+              <div
+                className={`w-10 h-full ${
+                  project.isComingSoon
+                    ? "bg-[var(--color-accent)]/25"
+                    : "bg-white/15"
+                }`}
+              />
+              <div
+                className={`flex-1 ${
+                  project.isComingSoon
+                    ? "bg-[var(--color-accent)]/10"
+                    : "bg-white/10"
+                }`}
+              />
+            </div>
+          </motion.div>
+        )}
 
         {project.isComingSoon && (
           <span className="absolute bottom-4 font-display text-sm font-semibold tracking-widest text-[var(--color-accent)]">
